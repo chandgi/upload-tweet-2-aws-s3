@@ -1,0 +1,22 @@
+{
+  "name": "aws-fetch-file-and-store-in-s3",
+  "description": "Fetch the latest tweet for the given user and then upload the tweet to a S3 bucket.",
+  "version": "1.0.0",
+  "author": "GC",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "chai": "^4.2.0",
+    "grunt": "^1.0.3",
+    "lodash": "^4.17.11",
+    "node-fetch": "^1.6.3",
+    "sinon": "^6.3.4",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.325.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}

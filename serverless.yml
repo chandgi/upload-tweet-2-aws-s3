@@ -14,7 +14,7 @@ provider:
     - Effect: Allow
       Action:
         - s3:PutObject
-      Resource: "arn:aws:iam::544936065491:user/gokulsports77:${self:custom.bucket}/*"
+      Resource: "arn:aws:iam::547890:user/gokulsports77:${self:custom.bucket}/*"
 
 functions:
   save:
